@@ -15,7 +15,13 @@
 #container {
   background-color: black;
   height: 70vh;
-  display: flex;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto  ;
+  
+  
+
+
   justify-content: space-evenly;
   align-items: center;
 }
@@ -23,5 +29,27 @@
 .tile {
   height: 200px;
   width: 200px;
+  
+
   background-color: aliceblue;
+}
+.button{
+ text-align: center;
+  color: black;
+  background-color: white;
+   font-size: 20px;
+   display: flex;
+   padding: 0px;
+
+
+
+}
+#button{
+background-color: lightpink;
+}
+#counter{
+background-color: lightpink;
+font-size: 20px;
+
+
 }
